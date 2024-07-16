@@ -6,11 +6,11 @@ class Person {
 		this.age=age;
 	}
 	
-	get fullname(){
-	         return console.log(this.name);
+	get name(){
+	         return this.name;
 		}
 
-		set setAge(value){
+		set age(value){
 			this.age=value;
 		}
 }
