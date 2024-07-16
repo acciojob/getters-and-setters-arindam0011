@@ -1,4 +1,5 @@
 //complete this code
+
 class Person {
 	constructor(name,age){
 		this.name=name;
@@ -9,24 +10,25 @@ class Person {
 	         return console.log(this.name);
 		}
 
-		set age(age){
-			this.age=age;
+		set setAge(value){
+			this.age=value;
 		}
 }
 
 
 
 class Student extends Person {
-	function study(){
+	study(){
 		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
-	function teach(){
+	teach(){
 		console.log(`${this.name} is teaching`);
 	}
 }
+
 
 // Do not change the code below this line
 window.Person = Person;
